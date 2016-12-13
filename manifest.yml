@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: JeffEd
+  host: JeffEd
+  disk_quota: 1024M
+  services:
+  - JeffEd-cloudantNoSQLDB
+  - availability-monitoring-auto
